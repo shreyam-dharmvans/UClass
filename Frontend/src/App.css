@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+  padding: 0px;
+  margin: 0px
+}
+
+.form-style {
+  margin-top: 13%;
+}
+
+.class-list {}
+
+.principal-page {}
+
+.classroom-list {
+  border: solid #9e9e9e 1px;
+  box-shadow: 0px 0px 107px #bdbdbd33;
+}
+
+.teacher-list {
+  border: solid #9e9e9e 1px;
+  box-shadow: 0px 0px 107px #bdbdbd33;
+}
+
+.student-list {
+  border: solid #9e9e9e 1px;
+  box-shadow: 0px 0px 107px #bdbdbd33;
+}
+
+.same-classroom {
+  width: 444px;
+}
+
+.same-class {
+  margin-left: 38%;
+  margin-top: 15%;
+}
+
+.other-students {
+  width: 280px;
+}
