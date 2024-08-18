@@ -6,8 +6,8 @@ import { BrowserRouter } from "react-router-dom";
 import axios from 'axios'
 import { Toaster } from 'react-hot-toast';
 //import 'bootstrap/dist/css/bootstrap.min.css'
-
-axios.defaults.baseURL = 'http://localhost:8080';
+//http://localhost:8080
+axios.defaults.baseURL = 'https://uclass.onrender.com';
 axios.defaults.withCredentials = true;
 
 createRoot(document.getElementById('root')).render(
